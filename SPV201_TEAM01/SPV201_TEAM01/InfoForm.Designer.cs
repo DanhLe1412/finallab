@@ -37,6 +37,7 @@ namespace SPV201_TEAM01
             // 
             // comboBoxOptions
             // 
+            this.comboBoxOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.comboBoxOptions.FormattingEnabled = true;
             this.comboBoxOptions.Items.AddRange(new object[] {
             "Contestants",
@@ -45,16 +46,17 @@ namespace SPV201_TEAM01
             "Backup members"});
             this.comboBoxOptions.Location = new System.Drawing.Point(173, 29);
             this.comboBoxOptions.Name = "comboBoxOptions";
-            this.comboBoxOptions.Size = new System.Drawing.Size(190, 21);
+            this.comboBoxOptions.Size = new System.Drawing.Size(190, 28);
             this.comboBoxOptions.TabIndex = 0;
             this.comboBoxOptions.SelectedValueChanged += new System.EventHandler(this.SelectedValueChanged);
             // 
             // labelOptions
             // 
             this.labelOptions.AutoSize = true;
+            this.labelOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.labelOptions.Location = new System.Drawing.Point(37, 29);
             this.labelOptions.Name = "labelOptions";
-            this.labelOptions.Size = new System.Drawing.Size(41, 13);
+            this.labelOptions.Size = new System.Drawing.Size(68, 22);
             this.labelOptions.TabIndex = 1;
             this.labelOptions.Text = "Option:";
             // 
